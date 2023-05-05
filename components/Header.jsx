@@ -50,7 +50,7 @@ const Header = () => {
                 </Link>
             </div>
             <div className="flex">
-            <div className="hidden md:flex">
+            <div className="hidden lg:flex">
                 {categories.map((category)=>(
                     <Link key={category.slug} href={`/category/${category.slug}`}>
                         <span className="md:float-right transition duration-500 mt-2 align-middle text-white ml-4 foznt-semibold cursor-pointer hover:text-pink-400 ">
