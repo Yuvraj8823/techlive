@@ -3,7 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Footer = () => (
     <>
-        <div className="h-auto w-full py-5 flex flex-wrap justify-center bg-gray-800">
+        <div className="h-auto w-full py-5 flex flex-wrap justify-center bg-gray-800 bg-opacity-40 dark:bg-opacity-70">
             <a href='https://github.com/Yuvraj8823' target="_blank">
             <GitHubIcon sx={{
                 color:"white",
@@ -14,8 +14,8 @@ const Footer = () => (
                 transform:"scale(1.5)",
                 "&:hover":{
                     cursor:"pointer",
-                    color:"#915eff",
-                    borderColor:"#915eff"
+                    color:"#00e6e6",
+                    borderColor:"#00e6e6"
                 }
             }} className=""/>
             </a>
@@ -29,8 +29,8 @@ const Footer = () => (
                 transform:"scale(1.5)",
                 "&:hover":{
                     cursor:"pointer",
-                    color:"#915eff",
-                    borderColor:"#915eff"
+                    color:"#00e6e6",
+                    borderColor:"#00e6e6"
                 }
             }} />
             </a>
@@ -44,8 +44,8 @@ const Footer = () => (
                 transform:"scale(1.5)",
                 "&:hover":{
                     cursor:"pointer",
-                    color:"#915eff",
-                    borderColor:"#915eff"
+                    color:"#00e6e6",
+                    borderColor:"#00e6e6"
                 }
             }} />
             </a>
@@ -59,8 +59,8 @@ const Footer = () => (
                 transform:"scale(1.5)",
                 "&:hover":{
                     cursor:"pointer",
-                    color:"#915eff",
-                    borderColor:"#915eff"
+                    color:"#00e6e6",
+                    borderColor:"#00e6e6"
                 }
             }} />
             </a>
